@@ -1,0 +1,22 @@
+{
+  "name": "bulemail",
+  "version": "1.0.0",
+  "description": "bulk email",
+  "main": "index.js",
+  "scripts": {
+    "test": "ok"
+  },
+  "repository": {
+    "type": "git",
+    "url": "yes"
+  },
+  "keywords": [
+    "Bulk",
+    "Email"
+  ],
+  "author": "Kayes Fahim",
+  "license": "MIT",
+  "dependencies": {
+    "nodemailer": "^6.4.18"
+  }
+}
