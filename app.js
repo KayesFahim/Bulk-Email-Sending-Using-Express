@@ -23,7 +23,7 @@ fs.readFile('index.html', {encoding: 'utf-8'}, function (err, html) {
     var mailOptions = {
       from: 'mrfawbd@gmail.com',
       to: maillist,
-      subject: 'Sending Email Bulk',
+      subject: ' Email marketting',
       html: html
     };
     transporter.sendMail(mailOptions, function(error, info) {
