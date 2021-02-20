@@ -5,6 +5,7 @@ var maillist = [
     'kiddykayes@gmail.com',
     'kayesfahimvlogs@gmail.com',
     'mrfawofficial@gmail.com',
+    'towfique.mdigital@gmail.com'
   ];
 
   var transporter = nodemailer.createTransport({
@@ -16,7 +17,7 @@ var maillist = [
 });
 
 
-fs.readFile('index.html', {encoding: 'utf-8'}, function (err, html) {
+fs.readFile('templete.html', {encoding: 'utf-8'}, function (err, html) {
   if (err) {
     console.log(err);
   } else {
